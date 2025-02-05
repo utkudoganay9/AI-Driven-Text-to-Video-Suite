@@ -1,0 +1,47 @@
+Genetik algoritmalar, karmaşık düzenli problemlerin çözümünü gerçekleştirmek amacıyla, kromozomların yeni diziler üretme esasını temel alan,
+sezgisel bir araştıma yöntemidir. Genetik algoritmalar, matematiksel
+fonksiyonların global optimizasyonunu hedeflerler. Genetik
+algoritmaları diğer araştırma yöntemlerinden ayıran özellik ise, bir çözüm
+seti ile başlandıktan sonra, geliştirme için biyolojik evrimi esas alan bir
+prosesin kullanılmasıdır. Bu prosesin sonunda da en iyi kromozoma ulaşma
+amaçlanmaktadır.
+Problemle ilgili parametreler, genler halinde
+bir araya gelerek kromozomu oluşturmakta; en iyi kromozoma ulaşma ise,
+genlerin kromozom içindeki dizilişini değiştirerek; yani, yeni nesiller yaratılarak gerçekleştirilmektedir. Genetik algoritmaların, problem çözümünde
+uygulanabilmeleri için, problemin çözüm uzayı olarak, her bir problemin
+mümkün çözümlerinden olan yapı'lardan (ya da organizmalardan) oluşan bir
+popülasyon ortaya konmaktadır. İlk neslin oluşması için, öncelikle belirli bir
+sayıda organizma seçildikten sonra, yeni bir neslin yaratılması için, mevcut
+nesilden seçilen aiie'lere bazı genetik oparatörler uygulanır. Burada "iyi
+çocuklar iyi aileden doğar" fikrine uygun olarak, mevcut nesil içinde yüksek uygunluk değerine sahip organizmaların aile olarak seçilme şansları da
+doğal olarak yüksektir.
+Genetik algoritmaların özellikleri
+Çeşitli problemlerin çözümünde kullanılan genetik algoritmlar, aşağıdaki
+özellikleri taşırlar.
+1. Uygun çözümler için bir veya daha fazla "popülasyon" mümkündür.
+2. Önceden bilinen çoklu çözümlerin özelliklerini bir araya getirerek, yeni
+uygun çözümler üreten bir mekanizmaya sahiptir.
+3. Önceden bilinen bir çözümün düzenini rastgele (tesadüfi) bir şekilde
+değiştirerek, yeni uygun bir çözüm üreten bir mekanizmaya sahiptir.
+Yeniden üretim 
+Her bireyi, bir nesilden diğerine aynen kopyalama işlemidir. Uygunluk
+derecesi yüksek olan kromozomlar üşütün nitelikli çocuk üretiminde kullanılmak üzere bu yöntemle çoğaltılırlar.
+Çapraz değişim (crossover)
+İki veya daha fazla kromozomdan (aiîe'den), yeni bir kromozom (çocuk)
+meydana getirme işlemidir. Burada da amaç, daha iyi niteliklere sahip çocuklara ulaşmaktır.
+Dahili değişim (mutation)
+Kromozom yapısı içinde değişikler yapma işlemidir. Mustasyon işlemi ile
+yeni uygun çözümler elde edilmeye çalışılır
+Nümerik Kodlama
+Problemdeki parametreleri temsil eden, kromozom yapısı İçindeki
+genlerin dizilişinin gösterimi, daha çok ikili sistem (0-1 sistemi) veya diğer
+rakamların da kullanılmasıyla gerçekleştirilmektedir. Rakamların ikili sistem
+dışında kullanımında, problemin paremetreleri gereği, sıralı veya sırasız
+rakamların birer defa kullanımının yanıstra, aynı rakamların birden çok kullanımına da rastlanmaktadır.
+Çapraz değişim uygulamaları
+Çapraz değişim ile ilgili olarak rastlanılan ilk uygulama şeklinde, önce
+kromozom yapı üzerinde rast gele bir ayrım noktası belirlenmektedir.
+Kromozonlar, çapraz değişim işleminde bu ayrım noktası öncesindeki gen
+yapısını aynen korurlarken, ayrım noktası sonrasındaki gen yapısını ise
+karşılıklı olarak değiştirmektedirler. Takip eden örnekte de görüleceği gibi,
+ayrım sonrası genleri (1100) ve (1010) karşılıklı olarak yer değiştirmiştir.

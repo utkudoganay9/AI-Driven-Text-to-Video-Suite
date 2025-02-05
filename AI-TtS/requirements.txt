@@ -1,0 +1,8 @@
+pytesseract
+Pillow
+gTTS
+nltk
+transformers
+torch
+pdf2image
+pyttsx3
