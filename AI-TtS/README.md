@@ -113,7 +113,7 @@ Audio saved at: article_voice/article_voice.mp3
 
 ### 3️⃣ **MP3 File Not Generated**:
 - Ensure you have a stable internet connection (gTTS requires online access).
-- Check if the **makale_sesi** folder exists, or create it manually.
+- Check if the **article_audio** folder exists, or create it manually.
 
 ---
 
