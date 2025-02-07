@@ -12,8 +12,6 @@ Welcome to our repository! Below, you'll find **two** project guides packed with
   - 💡 **Dynamic Text Rendering** in high-res videos (1080p)  
 - **💼 Use Case**: Ideal for creating **automated subtitles** or text-overlays in your videos.
 
-> **Read More**: [Audio-to-Video Synchronization Guide](./AI-Powered_Audio_to_Video_README.md)  
-*(Replace link with actual file path)*
 
 ---
 
@@ -25,8 +23,6 @@ Welcome to our repository! Below, you'll find **two** project guides packed with
   - 🗣️ **Text-to-Speech** for generating MP3 audiobooks  
 - **💼 Use Case**: Perfect for **automated audiobooks** from research papers, articles, or any text-based PDF.
 
-> **Read More**: [PDF to Speech Converter Guide](./PDF_to_Speech_README.md)  
-*(Replace link with actual file path)*
 
 ---
 
